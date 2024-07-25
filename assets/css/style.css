@@ -28,12 +28,12 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  /* color: white; */
   text-decoration: none;
 }
 
 a:hover {
-  color: #35e888;
+  /* color: #35e888; */
   text-decoration: none;
 }
 
@@ -923,7 +923,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: rgb(189, 147, 241);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1018,6 +1018,15 @@ section .container {
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #18d26e;
+}
+
+.portfolio-details .portfolio-info a {
+  color: rgb(216, 181, 233);
+  transition: all 0.3s ease-in-out;
+}
+.portfolio-details .portfolio-info a:hover {
+  color: rgb(148, 231, 213);
+  transition: all 0.3s ease-in-out;
 }
 
 /*--------------------------------------------------------------
