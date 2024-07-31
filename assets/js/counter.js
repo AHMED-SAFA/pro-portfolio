@@ -11,5 +11,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
   localStorage.setItem("visitorCount", visitorCount);
 
   document.getElementById("visitor-count").innerText = visitorCount;
-//   localStorage.removeItem("visitorCount");
+  // localStorage.removeItem("visitorCount");
 });
