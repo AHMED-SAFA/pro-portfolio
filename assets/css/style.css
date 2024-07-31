@@ -47,6 +47,45 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# counter
+--------------------------------------------------------------*/
+
+/* .counter-container {
+  width: 40px;
+  text-align: center;
+  background: #fff;
+  padding: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+} */
+
+#visitor-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  background-color: #333 !important;
+  color: white;
+  border-radius: 5px;
+  border: #b4afc5 solid 1px;
+}
+
+.visitor-info {
+  display: flex;
+  align-items: center;
+}
+
+.visitor-info div {
+  margin-right: 10px; /* Optional, for some space between the elements */
+}
+
+.counter {
+  color: #333;
+}
+
+/* -------------------------------------------------------------------- */
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
